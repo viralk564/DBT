@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: consume_public
+    database: consume  
+    schema: public  
+    tables:
+      - name: T_DIM_DATE
+      - name: T_DIM_TIME
+      - name: T_M2N_BASENEIGHBORHOOD

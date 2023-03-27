@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: meta_model
+    database: meta  
+    schema: model  
+    tables:
+      - name: T_CONFIGURATION
+      - name: T_UTILIZATIONTYPE
+      - name: T_UTILIZATIONTARGETMOD_HOUROFWEEK
+      - name: T_UTILIZATIONTARGETMOD_MONTH
+      - name: T_UTILIZATIONTARGETMOD_CATEGORY

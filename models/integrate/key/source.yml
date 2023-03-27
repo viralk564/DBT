@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: integrate_key
+    database: integrate
+    schema: key
+    tables:
+      - name: T_CARRIER
+      - name: T_VEHICLE
+      - name: T_MAINABO

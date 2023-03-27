@@ -34,5 +34,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_new_project:
     # Applies to all files under models/example/
-    example:
-      materialized: view
+    stage:
+      schema: dbt_az
+      materialized: table
+    meta:
+      schema: dbt_az
+      materialized: table
+    integrate:
+      schema: dbt_az
+      materialized: table

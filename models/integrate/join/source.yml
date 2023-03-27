@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: integrate_join
+    database: integrate
+    schema: join
+    tables:
+      - name: V_CARRIER
+      - name: V_BASE
+      - name: V_VEHICLE
+      - name: V_RESERVATION
+      - name: V_DEBT
+      - name: V_RESERVATIONCOAT
